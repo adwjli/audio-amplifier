@@ -1,0 +1,1616 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Audio Amplifer"
+Date "28 aug 2015"
+Rev "A"
+Comp "Andrew Li"
+Comment1 "Designed by:"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1450 1250 2050 1250
+Wire Wire Line
+	1550 1350 1550 1450
+Wire Wire Line
+	1550 1450 1450 1450
+Wire Wire Line
+	6200 2450 6200 2500
+Wire Wire Line
+	6200 2800 6450 2800
+Wire Wire Line
+	6450 2700 6200 2700
+Connection ~ 6200 2700
+Wire Wire Line
+	6450 2600 6200 2600
+Connection ~ 6200 2600
+Wire Wire Line
+	6450 2500 6200 2500
+Connection ~ 6200 2500
+Wire Wire Line
+	1750 3300 2250 3300
+Wire Wire Line
+	4200 3500 4200 4350
+Wire Wire Line
+	4050 4850 4050 4900
+Wire Wire Line
+	4200 4850 4200 4900
+Wire Wire Line
+	1750 3650 1750 3550
+Wire Wire Line
+	3150 4600 3900 4600
+Wire Wire Line
+	4350 4600 5150 4600
+Text Label 3300 4600 0    60   ~ 0
+AUDIO_IN_R
+Text Label 5000 4600 2    60   ~ 0
+AUDIO_IN_L
+Wire Wire Line
+	1750 3450 2250 3450
+Wire Wire Line
+	4050 3900 4050 4350
+Wire Wire Line
+	5200 2500 4600 2500
+Text Label 4600 2750 0    60   ~ 0
+AUDIO_IN_R
+Text Label 4600 2500 0    60   ~ 0
+AUDIO_IN_L
+Wire Wire Line
+	4600 2750 5200 2750
+Wire Wire Line
+	5600 2750 5950 2750
+Wire Wire Line
+	5200 1350 5200 1250
+Wire Wire Line
+	7350 1250 7350 1350
+Wire Wire Line
+	6100 1250 6100 1350
+Wire Wire Line
+	5650 1350 5650 1250
+Connection ~ 5650 1250
+Wire Wire Line
+	7300 4650 7300 4550
+Wire Wire Line
+	7000 4550 7300 4550
+Wire Wire Line
+	8150 4550 8400 4550
+Wire Wire Line
+	8550 4550 8550 4850
+Wire Wire Line
+	8550 4850 8650 4850
+Wire Wire Line
+	8650 5050 8550 5050
+Wire Wire Line
+	8550 5050 8550 5250
+Wire Wire Line
+	8550 5250 8150 5250
+Wire Wire Line
+	7300 5250 7300 5150
+Wire Wire Line
+	7550 5050 7550 5250
+Connection ~ 7550 5250
+Wire Wire Line
+	7550 4650 7550 4550
+Connection ~ 7550 4550
+Wire Wire Line
+	8150 5250 8150 5300
+Connection ~ 8150 5250
+Connection ~ 7300 4550
+Text Label 5900 4550 0    60   ~ 0
+LEFT_OUT
+Wire Wire Line
+	7300 5750 7300 5650
+Wire Wire Line
+	7000 5650 7300 5650
+Wire Wire Line
+	8150 5650 8400 5650
+Wire Wire Line
+	8550 5650 8550 5950
+Wire Wire Line
+	8550 5950 8650 5950
+Wire Wire Line
+	8650 6150 8550 6150
+Wire Wire Line
+	8550 6150 8550 6350
+Wire Wire Line
+	8550 6350 8150 6350
+Wire Wire Line
+	7300 6350 7300 6250
+Wire Wire Line
+	7550 6150 7550 6350
+Connection ~ 7550 6350
+Wire Wire Line
+	7550 5750 7550 5650
+Connection ~ 7550 5650
+Wire Wire Line
+	8150 6350 8150 6400
+Connection ~ 8150 6350
+Connection ~ 7300 5650
+Wire Wire Line
+	8500 3750 9100 3750
+Text Label 9600 3750 2    60   ~ 0
+RIGHT_OUT
+Wire Wire Line
+	7800 3000 8600 3000
+Wire Wire Line
+	8600 3000 8600 3650
+Wire Wire Line
+	8500 3100 8500 3750
+Wire Wire Line
+	8500 3100 7800 3100
+Wire Wire Line
+	7800 2800 8850 2800
+Wire Wire Line
+	8850 2800 8850 2900
+Wire Wire Line
+	7800 2700 9100 2700
+Wire Wire Line
+	9100 2700 9100 2900
+Text Label 9600 3650 2    60   ~ 0
+LEFT_OUT
+Wire Wire Line
+	9100 3300 9100 3750
+Wire Wire Line
+	8850 3300 8850 3650
+Wire Wire Line
+	8600 3650 8850 3650
+Connection ~ 9100 3750
+Connection ~ 8850 3650
+Wire Wire Line
+	9350 2900 9350 2600
+Wire Wire Line
+	9350 2600 7800 2600
+Wire Wire Line
+	7800 2500 9600 2500
+Wire Wire Line
+	9600 2500 9600 2900
+Wire Wire Line
+	9350 3300 9350 3350
+Wire Wire Line
+	6000 3200 6450 3200
+Wire Wire Line
+	6000 3300 6450 3300
+Wire Wire Line
+	4750 6700 4750 6750
+Wire Wire Line
+	4750 6300 4750 6250
+Wire Wire Line
+	4750 5750 4750 5700
+Wire Wire Line
+	6350 3600 6350 3750
+Wire Wire Line
+	6350 3600 6450 3600
+Wire Wire Line
+	3850 6150 3850 6250
+Wire Wire Line
+	3650 6150 3650 6250
+Wire Wire Line
+	3650 6900 3650 6850
+Text Notes 4900 6300 0    60   ~ 0
+ON/OFF\nIndication LED
+Text Notes 3350 7300 0    60   ~ 0
+Jumpers can be set\nto select gain
+Text Label 6000 3300 0    60   ~ 0
+GAIN0
+Text Label 6000 3200 0    60   ~ 0
+GAIN1
+Wire Wire Line
+	3650 5650 3650 5600
+Wire Wire Line
+	3650 5600 3750 5600
+Wire Wire Line
+	3850 5600 3850 5650
+Wire Wire Line
+	3850 6250 4250 6250
+Connection ~ 3850 6250
+Connection ~ 3650 6250
+Text Label 3250 6250 0    60   ~ 0
+GAIN0
+Text Label 4250 6250 2    60   ~ 0
+GAIN1
+Text Notes 8850 4700 0    60   ~ 0
+8 Ohm Speaker LEFT
+Text Notes 8900 5800 0    60   ~ 0
+8 Ohm Speaker RIGHT
+Text Label 5900 5650 0    60   ~ 0
+RIGHT_OUT
+Wire Wire Line
+	5900 4550 6400 4550
+Wire Wire Line
+	5900 5650 6400 5650
+Wire Wire Line
+	8300 1250 8300 1350
+Wire Wire Line
+	7850 1250 7850 1350
+Text Notes 9800 2900 0    60   ~ 0
+220nF rating must be\nat least 25V\n\n1uF rating must be\nat least 16V
+Wire Wire Line
+	5500 3500 5600 3500
+Wire Wire Line
+	5600 3550 5600 3500
+Connection ~ 5600 3500
+Wire Wire Line
+	4950 3400 4950 3500
+Wire Wire Line
+	4950 3500 5000 3500
+Wire Wire Line
+	5600 4050 5600 4100
+Wire Wire Line
+	5950 2750 5950 3100
+Wire Wire Line
+	5950 3100 6450 3100
+Wire Wire Line
+	6450 3000 6050 3000
+Wire Wire Line
+	6050 3000 6050 2500
+Wire Wire Line
+	6050 2500 5600 2500
+Wire Wire Line
+	2050 1300 2050 1250
+Connection ~ 2050 1250
+Wire Wire Line
+	2400 1300 2400 1250
+Connection ~ 2400 1250
+Wire Wire Line
+	2050 1850 2050 1800
+Wire Wire Line
+	2050 1850 2400 1850
+Wire Wire Line
+	2400 1850 2400 1700
+Wire Wire Line
+	2050 2400 2050 2350
+Wire Wire Line
+	2950 1850 2950 1550
+Connection ~ 2400 1850
+Wire Wire Line
+	3150 1250 3400 1250
+Wire Wire Line
+	3550 1250 3550 1200
+Wire Wire Line
+	5950 4100 5950 4000
+Wire Wire Line
+	5950 3600 5950 3500
+Connection ~ 5950 3500
+Wire Wire Line
+	5200 1250 5650 1250
+Wire Wire Line
+	7350 1250 7700 1250
+Connection ~ 7850 1250
+Text Notes 7600 2100 0    60   ~ 0
+Decoupling caps\nfor PVCC
+Wire Wire Line
+	7950 3500 7950 3600
+Wire Wire Line
+	7800 3600 7950 3600
+Connection ~ 7950 3600
+Wire Wire Line
+	8200 3300 8200 3400
+Wire Wire Line
+	7800 3300 8200 3300
+Connection ~ 8200 3400
+Wire Wire Line
+	3250 6250 3650 6250
+Wire Wire Line
+	3050 2300 3050 2350
+Wire Wire Line
+	3050 2350 3200 2350
+Wire Wire Line
+	3350 2350 3350 2300
+Wire Wire Line
+	3200 2350 3200 2400
+Connection ~ 3200 2350
+Wire Wire Line
+	3850 6850 3850 6900
+Wire Wire Line
+	9600 3350 9600 3300
+Wire Wire Line
+	8300 1800 8300 1750
+Wire Wire Line
+	7850 1800 7850 1750
+Wire Wire Line
+	7350 1800 7350 1750
+Wire Wire Line
+	5200 1800 5200 1750
+Wire Wire Line
+	5650 1800 5650 1750
+Wire Wire Line
+	6100 1800 6100 1750
+Wire Wire Line
+	3400 1200 3400 1250
+Connection ~ 3400 1250
+Wire Wire Line
+	2800 1800 2800 1850
+Connection ~ 2800 1850
+Wire Wire Line
+	5800 3450 5800 3500
+Connection ~ 5800 3500
+Wire Wire Line
+	7950 3500 7800 3500
+Wire Wire Line
+	7800 3400 8200 3400
+Wire Wire Line
+	8400 5600 8400 5650
+Connection ~ 8400 5650
+Wire Wire Line
+	8400 4500 8400 4550
+Connection ~ 8400 4550
+Wire Wire Line
+	7700 1200 7700 1250
+Connection ~ 7700 1250
+Wire Wire Line
+	5800 1200 5800 1250
+Connection ~ 5800 1250
+Wire Wire Line
+	3750 5550 3750 5600
+Connection ~ 3750 5600
+Text Notes 1500 7100 0    60   ~ 0
+MECHANICAL
+Wire Notes Line
+	1100 6550 2450 6550
+Wire Notes Line
+	2450 6550 2450 7150
+Wire Notes Line
+	2450 7150 1100 7150
+Wire Notes Line
+	1100 7150 1100 6550
+Wire Wire Line
+	1750 4350 2250 4350
+Wire Wire Line
+	1750 4700 1750 4600
+Wire Wire Line
+	1750 4500 2250 4500
+Wire Wire Line
+	4050 3900 3950 3900
+Wire Wire Line
+	4200 3500 3950 3500
+Wire Wire Line
+	2950 3400 2650 3400
+Text Label 2250 3300 2    60   ~ 0
+CH1_L
+Text Label 2250 3450 2    60   ~ 0
+CH1_R
+Text Label 2250 4350 2    60   ~ 0
+CH2_L
+Text Label 2250 4500 2    60   ~ 0
+CH2_R
+Text Label 2650 3400 0    60   ~ 0
+CH1_L
+Wire Wire Line
+	2950 3600 2650 3600
+Wire Wire Line
+	2950 3800 2650 3800
+Wire Wire Line
+	2950 4000 2650 4000
+Text Label 2650 3600 0    60   ~ 0
+CH2_L
+Text Label 2650 3800 0    60   ~ 0
+CH1_R
+Text Label 2650 4000 0    60   ~ 0
+CH2_R
+Wire Wire Line
+	9100 1700 9100 1600
+Wire Wire Line
+	9700 1600 9700 1700
+Wire Wire Line
+	1450 1350 1550 1350
+Connection ~ 1550 1450
+Text Notes 900  1000 0    60   ~ 0
+DC IN:\n15V to 25V
+Text Notes 1000 3100 0    60   ~ 0
+Channel 1
+Text Notes 1050 4150 0    60   ~ 0
+Channel 2
+Text Label 1700 1250 0    60   ~ 0
+PWR
+Wire Wire Line
+	6200 2700 6200 2800
+Wire Wire Line
+	6200 2600 6200 2700
+Wire Wire Line
+	6200 2500 6200 2600
+Wire Wire Line
+	5650 1250 5800 1250
+Wire Wire Line
+	7550 5250 7300 5250
+Wire Wire Line
+	7550 4550 7750 4550
+Wire Wire Line
+	8150 5250 7550 5250
+Wire Wire Line
+	7300 4550 7550 4550
+Wire Wire Line
+	7550 6350 7300 6350
+Wire Wire Line
+	7550 5650 7750 5650
+Wire Wire Line
+	8150 6350 7550 6350
+Wire Wire Line
+	7300 5650 7550 5650
+Wire Wire Line
+	9100 3750 9600 3750
+Wire Wire Line
+	8850 3650 9600 3650
+Wire Wire Line
+	3850 6250 3850 6350
+Wire Wire Line
+	3650 6250 3650 6350
+Wire Wire Line
+	5600 3500 5800 3500
+Wire Wire Line
+	2050 1250 2400 1250
+Wire Wire Line
+	2400 1250 2750 1250
+Wire Wire Line
+	2400 1850 2800 1850
+Wire Wire Line
+	5950 3500 6450 3500
+Wire Wire Line
+	7850 1250 8300 1250
+Wire Wire Line
+	7950 3600 7950 3750
+Wire Wire Line
+	8200 3400 8200 3750
+Wire Wire Line
+	3200 2350 3350 2350
+Wire Wire Line
+	3400 1250 3550 1250
+Wire Wire Line
+	2800 1850 2950 1850
+Wire Wire Line
+	5800 3500 5950 3500
+Wire Wire Line
+	8400 5650 8550 5650
+Wire Wire Line
+	8400 4550 8550 4550
+Wire Wire Line
+	7700 1250 7850 1250
+Wire Wire Line
+	5800 1250 6100 1250
+Wire Wire Line
+	3750 5600 3850 5600
+Wire Wire Line
+	1550 1450 1550 1600
+Wire Wire Line
+	9500 1600 9700 1600
+Wire Wire Line
+	9100 1600 9300 1600
+Text Notes 3800 5150 0    60   ~ 0
+Volume Control
+Text Notes 5350 2100 0    60   ~ 0
+Decoupling caps\nfor AVCC
+$Comp
+L Amplifiers:ECS00104 U1
+U 1 1 55D8187E
+P 7100 3050
+F 0 "U1" H 6650 3750 40  0000 L BNN
+F 1 "ECS00104" H 6950 2200 50  0001 L BNN
+F 2 "ECFootprints:DIP-20" H 6950 3150 50  0001 C CIN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Amplifiers/Texas Instruments - TPA3122D2.pdf" H 6950 3150 50  0001 C CNN
+F 4 "~" H 6450 4400 40  0001 C CNN "Component Value"
+F 5 "TPA3122D2N" H 6800 2350 50  0000 C CNN "Manufacturer Part Number"
+F 6 "Texas Instruments" H 7100 3850 50  0001 C CNN "Manufacturer"
+F 7 "~" H 6750 4700 40  0001 C CNN "Series"
+F 8 "TPA3122D2N, PDIP" H 7100 3950 50  0001 C CNN "Part Description"
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 55D81A97
+P 6200 2450
+F 0 "#PWR01" H 6200 2550 30  0001 C CNN
+F 1 "VCC" H 6200 2600 50  0000 C CNN
+F 2 "" H 6200 2450 50  0000 C CNN
+F 3 "" H 6200 2450 50  0000 C CNN
+	1    6200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:AUDIO-JACK J1
+U 1 1 55D81B0B
+P 1400 3450
+F 0 "J1" H 1000 3300 40  0000 C CNN
+F 1 "AUDIO-JACK" H 1150 3650 50  0000 C CNN
+F 2 "ECFootprints:AUDIO-JACK" H 1300 3450 50  0001 C CNN
+F 3 "~" H 1300 3450 50  0001 C CNN
+	1    1400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors:DUAL-POT R12
+U 1 1 55D81E18
+P 4150 4600
+F 0 "R12" H 4350 4750 40  0000 C CNN
+F 1 "DUAL-POT" H 3800 4750 50  0001 C CNN
+F 2 "ECFootprints:DUAL-POT2" H 4050 4600 50  0001 C CNN
+F 3 "~" H 4050 4600 50  0001 C CNN
+	1    4150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C3
+U 1 1 55D820CB
+P 5400 2500
+F 0 "C3" H 5400 2600 40  0000 L CNN
+F 1 "CAP-GENERIC" V 5250 2300 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 5438 2350 40  0001 C CNN
+F 3 "~" H 5400 2600 40  0001 C CNN
+F 4 "1uF" V 5300 2400 40  0000 C CNN "Component Value"
+F 5 "~" V 5550 2500 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 5250 2500 40  0001 C CNN "Manufacturer"
+F 7 "~" V 5650 2500 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 5550 2550 40  0001 C CNN "Part Description"
+	1    5400 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C4
+U 1 1 55D82113
+P 5400 2750
+F 0 "C4" H 5400 2850 40  0000 L CNN
+F 1 "CAP-GENERIC" V 5250 2550 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 5438 2600 40  0001 C CNN
+F 3 "~" H 5400 2850 40  0001 C CNN
+F 4 "1uF" V 5300 2650 40  0000 C CNN "Component Value"
+F 5 "~" V 5550 2750 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 5250 2750 40  0001 C CNN "Manufacturer"
+F 7 "~" V 5650 2750 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 5550 2800 40  0001 C CNN "Part Description"
+	1    5400 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C2
+U 1 1 55D82196
+P 5200 1550
+F 0 "C2" H 5200 1650 40  0000 L CNN
+F 1 "CAP-GENERIC" V 5050 1350 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 5238 1400 40  0001 C CNN
+F 3 "~" H 5200 1650 40  0001 C CNN
+F 4 "100nF" H 5100 1450 40  0000 C CNN "Component Value"
+F 5 "~" V 5350 1550 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 5050 1550 40  0001 C CNN "Manufacturer"
+F 7 "~" V 5450 1550 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 5350 1600 40  0001 C CNN "Part Description"
+	1    5200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C5
+U 1 1 55D82219
+P 7850 1550
+F 0 "C5" H 7850 1650 40  0000 L CNN
+F 1 "CAP-GENERIC" V 7700 1350 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 7888 1400 40  0001 C CNN
+F 3 "~" H 7850 1650 40  0001 C CNN
+F 4 "100nF" H 7750 1450 40  0000 C CNN "Component Value"
+F 5 "~" V 8000 1550 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 7700 1550 40  0001 C CNN "Manufacturer"
+F 7 "~" V 8100 1550 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 8000 1600 40  0001 C CNN "Part Description"
+	1    7850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:CAP-POL-GENERIC C6
+U 1 1 55D8246D
+P 6100 1550
+F 0 "C6" H 6150 1650 40  0000 L CNN
+F 1 "CAP-POL-GENERIC" H 6150 1450 40  0001 L CNN
+F 2 "ECFootprints:CAP-POL-GENERIC-TH-D4MM-P1.5MM" H 6050 1550 40  0001 C CNN
+F 3 "~" H 6150 1650 40  0001 C CNN
+F 4 "10uF" H 6200 1450 40  0000 C CNN "Component Value"
+	1    6100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 55D825A7
+P 7700 1200
+F 0 "#PWR02" H 7700 1300 30  0001 C CNN
+F 1 "VCC" H 7700 1350 50  0000 C CNN
+F 2 "" H 7700 1200 50  0000 C CNN
+F 3 "" H 7700 1200 50  0000 C CNN
+	1    7700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:CAP-POL-GENERIC C12
+U 1 1 55D825B6
+P 7950 4550
+F 0 "C12" H 8000 4650 40  0000 L CNN
+F 1 "CAP-POL-GENERIC" H 8000 4450 40  0001 L CNN
+F 2 "ECFootprints:CAP-POL-GENERIC-TH-D8MM-P3.5MM" H 7900 4550 40  0001 C CNN
+F 3 "~" H 8000 4650 40  0001 C CNN
+F 4 "470uF" H 8050 4400 40  0000 C CNN "Component Value"
+	1    7950 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connectors:HEADER-GENERIC-2WAY P2
+U 1 1 55D825BE
+P 9000 4950
+F 0 "P2" V 8950 4950 40  0000 C CNN
+F 1 "HEADER-GENERIC-2WAY" H 9000 4700 50  0001 C CNN
+F 2 "ECFootprints:HEADER-2-TH-P5.0MM" H 8850 4850 50  0001 C CNN
+F 3 "~" H 8950 4950 50  0001 C CNN
+F 4 "~" H 9000 4600 40  0001 C CNN "Component Value"
+F 5 "~" V 9150 4950 40  0000 C CNN "Manufacturer Part Number"
+F 6 "~" H 9000 5200 40  0001 C CNN "Manufacturer"
+F 7 "~" H 9000 4500 40  0001 C CNN "Series"
+F 8 "~" H 9000 4400 40  0001 C CNN "Part Description"
+	1    9000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C9
+U 1 1 55D825F2
+P 7550 4850
+F 0 "C9" H 7550 4950 40  0000 L CNN
+F 1 "CAP-GENERIC" V 7400 4650 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 7588 4700 40  0001 C CNN
+F 3 "~" H 7550 4950 40  0001 C CNN
+F 4 "390nF" H 7450 4750 40  0000 C CNN "Component Value"
+F 5 "~" V 7700 4850 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 7400 4850 40  0001 C CNN "Manufacturer"
+F 7 "~" V 7800 4850 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 7700 4900 40  0001 C CNN "Part Description"
+	1    7550 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R10
+U 1 1 55D8261C
+P 7300 4900
+F 0 "R10" H 7300 4980 40  0000 C CNN
+F 1 "RES-GENERIC" H 7300 5050 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 7300 4830 50  0001 C CNN
+F 3 "~" H 7300 4980 50  0001 C CNN
+F 4 "4K7" H 7300 4900 40  0000 C CNN "Component Value"
+F 5 "~" H 7300 4800 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 7300 5050 40  0001 C CNN "Manufacturer"
+F 7 "~" H 7300 4700 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 7300 4800 50  0001 C CNN "Part Description"
+	1    7300 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Capacitors:CAP-POL-GENERIC C13
+U 1 1 55D8280C
+P 7950 5650
+F 0 "C13" H 8000 5750 40  0000 L CNN
+F 1 "CAP-POL-GENERIC" H 8000 5550 40  0001 L CNN
+F 2 "ECFootprints:CAP-POL-GENERIC-TH-D8MM-P3.5MM" H 7900 5650 40  0001 C CNN
+F 3 "~" H 8000 5750 40  0001 C CNN
+F 4 "470uF" H 8050 5500 40  0000 C CNN "Component Value"
+	1    7950 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connectors:HEADER-GENERIC-2WAY P3
+U 1 1 55D82817
+P 9000 6050
+F 0 "P3" V 8950 6050 40  0000 C CNN
+F 1 "HEADER-GENERIC-2WAY" H 9000 5800 50  0001 C CNN
+F 2 "ECFootprints:HEADER-2-TH-P5.0MM" H 8850 5950 50  0001 C CNN
+F 3 "~" H 8950 6050 50  0001 C CNN
+F 4 "~" H 9000 5700 40  0001 C CNN "Component Value"
+F 5 "~" V 9150 6050 40  0000 C CNN "Manufacturer Part Number"
+F 6 "~" H 9000 6300 40  0001 C CNN "Manufacturer"
+F 7 "~" H 9000 5600 40  0001 C CNN "Series"
+F 8 "~" H 9000 5500 40  0001 C CNN "Part Description"
+	1    9000 6050
+	1    0    0    1   
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C10
+U 1 1 55D82822
+P 7550 5950
+F 0 "C10" H 7550 6050 40  0000 L CNN
+F 1 "CAP-GENERIC" V 7400 5750 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 7588 5800 40  0001 C CNN
+F 3 "~" H 7550 6050 40  0001 C CNN
+F 4 "390nF" H 7450 5850 40  0000 C CNN "Component Value"
+F 5 "~" V 7700 5950 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 7400 5950 40  0001 C CNN "Manufacturer"
+F 7 "~" V 7800 5950 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 7700 6000 40  0001 C CNN "Part Description"
+	1    7550 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R11
+U 1 1 55D8282D
+P 7300 6000
+F 0 "R11" H 7300 6080 40  0000 C CNN
+F 1 "RES-GENERIC" H 7300 6150 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 7300 5930 50  0001 C CNN
+F 3 "~" H 7300 6080 50  0001 C CNN
+F 4 "4K7" H 7300 6000 40  0000 C CNN "Component Value"
+F 5 "~" H 7300 5900 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 7300 6150 40  0001 C CNN "Manufacturer"
+F 7 "~" H 7300 5800 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 7300 5900 50  0001 C CNN "Part Description"
+	1    7300 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C15
+U 1 1 55D8298C
+P 8850 3100
+F 0 "C15" H 8850 3200 40  0000 L CNN
+F 1 "CAP-GENERIC" V 8700 2900 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 8888 2950 40  0001 C CNN
+F 3 "~" H 8850 3200 40  0001 C CNN
+F 4 "220nF" H 8750 3000 40  0000 C CNN "Component Value"
+F 5 "~" V 9000 3100 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 8700 3100 40  0001 C CNN "Manufacturer"
+F 7 "~" V 9100 3100 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 9000 3150 40  0001 C CNN "Part Description"
+	1    8850 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C16
+U 1 1 55D829CD
+P 9100 3100
+F 0 "C16" H 9100 3200 40  0000 L CNN
+F 1 "CAP-GENERIC" V 8950 2900 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 9138 2950 40  0001 C CNN
+F 3 "~" H 9100 3200 40  0001 C CNN
+F 4 "220nF" H 9000 3000 40  0000 C CNN "Component Value"
+F 5 "~" V 9250 3100 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 8950 3100 40  0001 C CNN "Manufacturer"
+F 7 "~" V 9350 3100 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 9250 3150 40  0001 C CNN "Part Description"
+	1    9100 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C17
+U 1 1 55D82DFA
+P 9350 3100
+F 0 "C17" H 9350 3200 40  0000 L CNN
+F 1 "CAP-GENERIC" V 9200 2900 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 9388 2950 40  0001 C CNN
+F 3 "~" H 9350 3200 40  0001 C CNN
+F 4 "1uF" H 9250 3000 40  0000 C CNN "Component Value"
+F 5 "~" V 9500 3100 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 9200 3100 40  0001 C CNN "Manufacturer"
+F 7 "~" V 9600 3100 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 9500 3150 40  0001 C CNN "Part Description"
+	1    9350 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Capacitors:CAP-GENERIC C18
+U 1 1 55D82E05
+P 9600 3100
+F 0 "C18" H 9600 3200 40  0000 L CNN
+F 1 "CAP-GENERIC" V 9450 2900 40  0001 L CNN
+F 2 "ECFootprints:CAP-GENERIC-TH" H 9638 2950 40  0001 C CNN
+F 3 "~" H 9600 3200 40  0001 C CNN
+F 4 "1uF" H 9500 3000 40  0000 C CNN "Component Value"
+F 5 "~" V 9750 3100 40  0001 C CNN "Manfacturer Part Number"
+F 6 "~" V 9450 3100 40  0001 C CNN "Manufacturer"
+F 7 "~" V 9850 3100 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Capacitor" V 9750 3150 40  0001 C CNN "Part Description"
+	1    9600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 55D83162
+P 4950 3400
+F 0 "#PWR03" H 4950 3500 30  0001 C CNN
+F 1 "VCC" H 4950 3550 50  0000 C CNN
+F 2 "" H 4950 3400 50  0000 C CNN
+F 3 "" H 4950 3400 50  0000 C CNN
+	1    4950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDs:LED-GENERIC-TH D1
+U 1 1 55D83348
+P 4750 6500
+F 0 "D1" H 4750 6600 40  0000 C CNN
+F 1 "LED-GENERIC-TH" H 4750 6700 50  0001 C CNN
+F 2 "ECFootprints:LED-GENERIC-TH" H 4650 6500 50  0001 C CNN
+F 3 "~" H 4750 6600 50  0001 C CNN
+F 4 "~" H 4750 6800 40  0001 C CNN "Component Value"
+F 5 "~" H 4750 6350 40  0000 C CNN "Manufacturer Part Number"
+F 6 "~" H 4750 6250 40  0001 C CNN "Manufacturer"
+F 7 "~" H 4750 6150 40  0001 C CNN "Series"
+F 8 "Generic Through Hole LED" H 4750 6350 50  0001 C CNN "Part Description"
+	1    4750 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R7
+U 1 1 55D8337C
+P 4750 6000
+F 0 "R7" H 4750 6080 40  0000 C CNN
+F 1 "RES-GENERIC" H 4750 6150 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 4750 5930 50  0001 C CNN
+F 3 "~" H 4750 6080 50  0001 C CNN
+F 4 "4K7" H 4750 6000 40  0000 C CNN "Component Value"
+F 5 "~" H 4750 5900 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 4750 6150 40  0001 C CNN "Manufacturer"
+F 7 "~" H 4750 5800 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 4750 5900 50  0001 C CNN "Part Description"
+	1    4750 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R4
+U 1 1 55D83572
+P 3650 6600
+F 0 "R4" H 3650 6680 40  0000 C CNN
+F 1 "RES-GENERIC" H 3650 6750 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 3650 6530 50  0001 C CNN
+F 3 "~" H 3650 6680 50  0001 C CNN
+F 4 "0R" H 3650 6600 40  0000 C CNN "Component Value"
+F 5 "~" H 3650 6500 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 3650 6750 40  0001 C CNN "Manufacturer"
+F 7 "~" H 3650 6400 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 3650 6500 50  0001 C CNN "Part Description"
+	1    3650 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R6
+U 1 1 55D8359F
+P 3850 6600
+F 0 "R6" H 3850 6680 40  0000 C CNN
+F 1 "RES-GENERIC" H 3850 6750 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 3850 6530 50  0001 C CNN
+F 3 "~" H 3850 6680 50  0001 C CNN
+F 4 "0R" H 3850 6600 40  0000 C CNN "Component Value"
+F 5 "~" H 3850 6500 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 3850 6750 40  0001 C CNN "Manufacturer"
+F 7 "~" H 3850 6400 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 3850 6500 50  0001 C CNN "Part Description"
+	1    3850 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R3
+U 1 1 55D8382B
+P 3650 5900
+F 0 "R3" H 3650 5980 40  0000 C CNN
+F 1 "RES-GENERIC" H 3650 6050 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 3650 5830 50  0001 C CNN
+F 3 "~" H 3650 5980 50  0001 C CNN
+F 4 "10K" H 3650 5900 40  0000 C CNN "Component Value"
+F 5 "~" H 3650 5800 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 3650 6050 40  0001 C CNN "Manufacturer"
+F 7 "~" H 3650 5700 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 3650 5800 50  0001 C CNN "Part Description"
+	1    3650 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R5
+U 1 1 55D83836
+P 3850 5900
+F 0 "R5" H 3850 5980 40  0000 C CNN
+F 1 "RES-GENERIC" H 3850 6050 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 3850 5830 50  0001 C CNN
+F 3 "~" H 3850 5980 50  0001 C CNN
+F 4 "10K" H 3850 5900 40  0000 C CNN "Component Value"
+F 5 "~" H 3850 5800 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 3850 6050 40  0001 C CNN "Manufacturer"
+F 7 "~" H 3850 5700 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 3850 5800 50  0001 C CNN "Part Description"
+	1    3850 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 55D83997
+P 3750 5550
+F 0 "#PWR04" H 3750 5650 30  0001 C CNN
+F 1 "VCC" H 3750 5700 50  0000 C CNN
+F 2 "" H 3750 5550 50  0000 C CNN
+F 3 "" H 3750 5550 50  0000 C CNN
+	1    3750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R9
+U 1 1 55D8425E
+P 5600 3800
+F 0 "R9" H 5600 3880 40  0000 C CNN
+F 1 "RES-GENERIC" H 5600 3950 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 5600 3730 50  0001 C CNN
+F 3 "~" H 5600 3880 50  0001 C CNN
+F 4 "10K" H 5600 3800 40  0000 C CNN "Component Value"
+F 5 "~" H 5600 3700 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 5600 3950 40  0001 C CNN "Manufacturer"
+F 7 "~" H 5600 3600 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 5600 3700 50  0001 C CNN "Part Description"
+	1    5600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Capacitors:CAP-POL-GENERIC C11
+U 1 1 55D8D879
+P 5650 1550
+F 0 "C11" H 5700 1650 40  0000 L CNN
+F 1 "CAP-POL-GENERIC" H 5700 1450 40  0001 L CNN
+F 2 "ECFootprints:CAP-POL-GENERIC-TH-D8MM-P3.5MM" H 5600 1550 40  0001 C CNN
+F 3 "~" H 5700 1650 40  0001 C CNN
+F 4 "470uF" H 5750 1450 40  0000 C CNN "Component Value"
+	1    5650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:CAP-POL-GENERIC C14
+U 1 1 55D8D880
+P 8300 1550
+F 0 "C14" H 8350 1650 40  0000 L CNN
+F 1 "CAP-POL-GENERIC" H 8350 1450 40  0001 L CNN
+F 2 "ECFootprints:CAP-POL-GENERIC-TH-D8MM-P3.5MM" H 8250 1550 40  0001 C CNN
+F 3 "~" H 8350 1650 40  0001 C CNN
+F 4 "470uF" H 8400 1450 40  0000 C CNN "Component Value"
+	1    8300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R8
+U 1 1 55D95A60
+P 5250 3500
+F 0 "R8" H 5250 3580 40  0000 C CNN
+F 1 "RES-GENERIC" H 5250 3650 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 5250 3430 50  0001 C CNN
+F 3 "~" H 5250 3580 50  0001 C CNN
+F 4 "22K" H 5250 3500 40  0000 C CNN "Component Value"
+F 5 "~" H 5250 3400 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 5250 3650 40  0001 C CNN "Manufacturer"
+F 7 "~" H 5250 3300 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 5250 3400 50  0001 C CNN "Part Description"
+	1    5250 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R1
+U 1 1 55D962D2
+P 2050 1550
+F 0 "R1" H 2050 1630 40  0000 C CNN
+F 1 "RES-GENERIC" H 2050 1700 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 2050 1480 50  0001 C CNN
+F 3 "~" H 2050 1630 50  0001 C CNN
+F 4 "22K" H 2050 1550 40  0000 C CNN "Component Value"
+F 5 "~" H 2050 1450 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 2050 1700 40  0001 C CNN "Manufacturer"
+F 7 "~" H 2050 1350 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 2050 1450 50  0001 C CNN "Part Description"
+	1    2050 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors:RES-GENERIC R2
+U 1 1 55D962DD
+P 2050 2100
+F 0 "R2" H 2050 2180 40  0000 C CNN
+F 1 "RES-GENERIC" H 2050 2250 50  0001 C CNN
+F 2 "ECFootprints:RES-GENERIC-TH" H 2050 2030 50  0001 C CNN
+F 3 "~" H 2050 2180 50  0001 C CNN
+F 4 "39K" H 2050 2100 40  0000 C CNN "Component Value"
+F 5 "~" H 2050 2000 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" H 2050 2250 40  0001 C CNN "Manufacturer"
+F 7 "~" H 2050 1900 40  0001 C CNN "Series"
+F 8 "Generic Through Hole Resistor" H 2050 2000 50  0001 C CNN "Part Description"
+	1    2050 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Capacitors:CAP-POL-GENERIC C1
+U 1 1 55D96301
+P 2400 1500
+F 0 "C1" H 2450 1600 40  0000 L CNN
+F 1 "CAP-POL-GENERIC" H 2450 1400 40  0001 L CNN
+F 2 "ECFootprints:CAP-POL-GENERIC-TH-D4MM-P1.5MM" H 2350 1500 40  0001 C CNN
+F 3 "~" H 2450 1600 40  0001 C CNN
+F 4 "1uF" H 2500 1400 40  0000 C CNN "Component Value"
+	1    2400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 55D967D1
+P 3550 1200
+F 0 "#PWR05" H 3550 1300 30  0001 C CNN
+F 1 "VCC" H 3550 1350 50  0000 C CNN
+F 2 "" H 3550 1200 50  0000 C CNN
+F 3 "" H 3550 1200 50  0000 C CNN
+	1    3550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:CAP-POL-GENERIC C7
+U 1 1 55D96AB2
+P 5950 3800
+F 0 "C7" H 6000 3900 40  0000 L CNN
+F 1 "CAP-POL-GENERIC" H 6000 3700 40  0001 L CNN
+F 2 "ECFootprints:CAP-POL-GENERIC-TH-D4MM-P1.5MM" H 5900 3800 40  0001 C CNN
+F 3 "~" H 6000 3900 40  0001 C CNN
+F 4 "1uF" H 6050 3700 40  0000 C CNN "Component Value"
+	1    5950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 55D9701A
+P 5800 1200
+F 0 "#PWR06" H 5800 1300 30  0001 C CNN
+F 1 "VCC" H 5800 1350 50  0000 C CNN
+F 2 "" H 5800 1200 50  0000 C CNN
+F 3 "" H 5800 1200 50  0000 C CNN
+	1    5800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP5
+U 1 1 55D97B87
+P 5800 3450
+F 0 "TP5" H 5800 3625 40  0000 C CNN
+F 1 "TP-2MM" H 5800 3450 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 5800 3450 60  0001 C CNN
+F 3 "" H 5800 3450 60  0000 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP4
+U 1 1 55D97B94
+P 3400 1200
+F 0 "TP4" H 3400 1375 40  0000 C CNN
+F 1 "TP-2MM" H 3400 1200 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 3400 1200 60  0001 C CNN
+F 3 "" H 3400 1200 60  0000 C CNN
+	1    3400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP2
+U 1 1 55D97BCC
+P 2800 1800
+F 0 "TP2" H 2800 1975 40  0000 C CNN
+F 1 "TP-2MM" H 2800 1800 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 2800 1800 60  0001 C CNN
+F 3 "" H 2800 1800 60  0000 C CNN
+	1    2800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP3
+U 1 1 55D97DB6
+P 5150 4600
+F 0 "TP3" H 5150 4775 40  0000 C CNN
+F 1 "TP-2MM" H 5150 4600 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 5150 4600 60  0001 C CNN
+F 3 "" H 5150 4600 60  0000 C CNN
+	1    5150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP1
+U 1 1 55D97DBC
+P 3150 4600
+F 0 "TP1" H 3150 4775 40  0000 C CNN
+F 1 "TP-2MM" H 3150 4600 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 3150 4600 60  0001 C CNN
+F 3 "" H 3150 4600 60  0000 C CNN
+	1    3150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP6
+U 1 1 55D97EDA
+P 8400 4500
+F 0 "TP6" H 8400 4675 40  0000 C CNN
+F 1 "TP-2MM" H 8400 4500 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 8400 4500 60  0001 C CNN
+F 3 "" H 8400 4500 60  0000 C CNN
+	1    8400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP7
+U 1 1 55D97EE0
+P 8400 5600
+F 0 "TP7" H 8400 5775 40  0000 C CNN
+F 1 "TP-2MM" H 8400 5600 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 8400 5600 60  0001 C CNN
+F 3 "" H 8400 5600 60  0000 C CNN
+	1    8400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP8
+U 1 1 55D98020
+P 3050 2300
+F 0 "TP8" H 3050 2475 40  0000 C CNN
+F 1 "TP-2MM" H 3050 2300 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 3050 2300 60  0001 C CNN
+F 3 "" H 3050 2300 60  0000 C CNN
+	1    3050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:TP-2MM TP9
+U 1 1 55D98026
+P 3350 2300
+F 0 "TP9" H 3350 2475 40  0000 C CNN
+F 1 "TP-2MM" H 3350 2300 50  0001 C CNN
+F 2 "ECFootprints:TP-2MM" H 3350 2300 60  0001 C CNN
+F 3 "" H 3350 2300 60  0000 C CNN
+	1    3350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductors:INDUCTOR-GENERIC L1
+U 1 1 55D98881
+P 6700 4550
+F 0 "L1" V 6650 4550 40  0000 C CNN
+F 1 "INDUCTOR-GENERIC" V 6800 4550 50  0001 C CNN
+F 2 "ECFootprints:INDUCTOR-GENERIC-TH-D9.0MM-P5.0MM" H 6550 4450 50  0001 C CNN
+F 3 "~" H 6650 4550 50  0001 C CNN
+F 4 "47uH" V 6800 4550 40  0000 C CNN "Component Value"
+F 5 "~" V 6900 4550 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" V 7000 4550 40  0001 C CNN "Manufacturer"
+F 7 "~" V 7100 4550 40  0001 C CNN "Series"
+F 8 "~" V 7200 4550 40  0001 C CNN "Part Description"
+	1    6700 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Inductors:INDUCTOR-GENERIC L2
+U 1 1 55D988F6
+P 6700 5650
+F 0 "L2" V 6650 5650 40  0000 C CNN
+F 1 "INDUCTOR-GENERIC" V 6800 5650 50  0001 C CNN
+F 2 "ECFootprints:INDUCTOR-GENERIC-TH-D9.0MM-P5.0MM" H 6550 5550 50  0001 C CNN
+F 3 "~" H 6650 5650 50  0001 C CNN
+F 4 "47uH" V 6800 5650 40  0000 C CNN "Component Value"
+F 5 "~" V 6900 5650 40  0001 C CNN "Manufacturer Part Number"
+F 6 "~" V 7000 5650 40  0001 C CNN "Manufacturer"
+F 7 "~" V 7100 5650 40  0001 C CNN "Series"
+F 8 "~" V 7200 5650 40  0001 C CNN "Part Description"
+	1    6700 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDA #PWR07
+U 1 1 55D98DD1
+P 2050 2400
+F 0 "#PWR07" H 2050 2400 40  0001 C CNN
+F 1 "GNDA" H 2050 2250 50  0000 C CNN
+F 2 "" H 2050 2400 50  0000 C CNN
+F 3 "" H 2050 2400 50  0000 C CNN
+	1    2050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR08
+U 1 1 55D98DD7
+P 1750 3650
+F 0 "#PWR08" H 1750 3650 40  0001 C CNN
+F 1 "GNDA" H 1750 3500 50  0000 C CNN
+F 2 "" H 1750 3650 50  0000 C CNN
+F 3 "" H 1750 3650 50  0000 C CNN
+	1    1750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR09
+U 1 1 55D98DDD
+P 3200 2400
+F 0 "#PWR09" H 3200 2400 40  0001 C CNN
+F 1 "GNDA" H 3200 2250 50  0000 C CNN
+F 2 "" H 3200 2400 50  0000 C CNN
+F 3 "" H 3200 2400 50  0000 C CNN
+	1    3200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR010
+U 1 1 55D98DE3
+P 1550 1600
+F 0 "#PWR010" H 1550 1600 40  0001 C CNN
+F 1 "GNDA" H 1550 1450 50  0000 C CNN
+F 2 "" H 1550 1600 50  0000 C CNN
+F 3 "" H 1550 1600 50  0000 C CNN
+	1    1550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR011
+U 1 1 55D98F92
+P 5200 1800
+F 0 "#PWR011" H 5200 1800 40  0001 C CNN
+F 1 "GNDA" H 5200 1650 50  0000 C CNN
+F 2 "" H 5200 1800 50  0000 C CNN
+F 3 "" H 5200 1800 50  0000 C CNN
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR012
+U 1 1 55D98F98
+P 4050 4900
+F 0 "#PWR012" H 4050 4900 40  0001 C CNN
+F 1 "GNDA" H 4050 4750 50  0000 C CNN
+F 2 "" H 4050 4900 50  0000 C CNN
+F 3 "" H 4050 4900 50  0000 C CNN
+	1    4050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR013
+U 1 1 55D98F9E
+P 4200 4900
+F 0 "#PWR013" H 4200 4900 40  0001 C CNN
+F 1 "GNDA" H 4200 4750 50  0000 C CNN
+F 2 "" H 4200 4900 50  0000 C CNN
+F 3 "" H 4200 4900 50  0000 C CNN
+	1    4200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR014
+U 1 1 55D98FA4
+P 3650 6900
+F 0 "#PWR014" H 3650 6900 40  0001 C CNN
+F 1 "GNDA" H 3650 6750 50  0000 C CNN
+F 2 "" H 3650 6900 50  0000 C CNN
+F 3 "" H 3650 6900 50  0000 C CNN
+	1    3650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR015
+U 1 1 55D98FAA
+P 3850 6900
+F 0 "#PWR015" H 3850 6900 40  0001 C CNN
+F 1 "GNDA" H 3850 6750 50  0000 C CNN
+F 2 "" H 3850 6900 50  0000 C CNN
+F 3 "" H 3850 6900 50  0000 C CNN
+	1    3850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR016
+U 1 1 55D98FB0
+P 4750 6750
+F 0 "#PWR016" H 4750 6750 40  0001 C CNN
+F 1 "GNDA" H 4750 6600 50  0000 C CNN
+F 2 "" H 4750 6750 50  0000 C CNN
+F 3 "" H 4750 6750 50  0000 C CNN
+	1    4750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR017
+U 1 1 55D98FB6
+P 6350 3750
+F 0 "#PWR017" H 6350 3750 40  0001 C CNN
+F 1 "GNDA" H 6350 3600 50  0000 C CNN
+F 2 "" H 6350 3750 50  0000 C CNN
+F 3 "" H 6350 3750 50  0000 C CNN
+	1    6350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR018
+U 1 1 55D98FBC
+P 5600 4100
+F 0 "#PWR018" H 5600 4100 40  0001 C CNN
+F 1 "GNDA" H 5600 3950 50  0000 C CNN
+F 2 "" H 5600 4100 50  0000 C CNN
+F 3 "" H 5600 4100 50  0000 C CNN
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR019
+U 1 1 55D98FC2
+P 5950 4100
+F 0 "#PWR019" H 5950 4100 40  0001 C CNN
+F 1 "GNDA" H 5950 3950 50  0000 C CNN
+F 2 "" H 5950 4100 50  0000 C CNN
+F 3 "" H 5950 4100 50  0000 C CNN
+	1    5950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR020
+U 1 1 55D98FD2
+P 5650 1800
+F 0 "#PWR020" H 5650 1800 40  0001 C CNN
+F 1 "GNDA" H 5650 1650 50  0000 C CNN
+F 2 "" H 5650 1800 50  0000 C CNN
+F 3 "" H 5650 1800 50  0000 C CNN
+	1    5650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR021
+U 1 1 55D98FD8
+P 6100 1800
+F 0 "#PWR021" H 6100 1800 40  0001 C CNN
+F 1 "GNDA" H 6100 1650 50  0000 C CNN
+F 2 "" H 6100 1800 50  0000 C CNN
+F 3 "" H 6100 1800 50  0000 C CNN
+	1    6100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR022
+U 1 1 55D98FDE
+P 9600 3350
+F 0 "#PWR022" H 9600 3350 40  0001 C CNN
+F 1 "GNDA" H 9600 3200 50  0000 C CNN
+F 2 "" H 9600 3350 50  0000 C CNN
+F 3 "" H 9600 3350 50  0000 C CNN
+	1    9600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 55D990A9
+P 7950 3750
+F 0 "#PWR023" H 7950 3750 30  0001 C CNN
+F 1 "GND" H 7950 3600 50  0001 C CNN
+F 2 "" H 7950 3750 50  0000 C CNN
+F 3 "" H 7950 3750 50  0000 C CNN
+	1    7950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 55D990B6
+P 8150 6400
+F 0 "#PWR024" H 8150 6400 30  0001 C CNN
+F 1 "GND" H 8150 6250 50  0001 C CNN
+F 2 "" H 8150 6400 50  0000 C CNN
+F 3 "" H 8150 6400 50  0000 C CNN
+	1    8150 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 55D990BC
+P 8150 5300
+F 0 "#PWR025" H 8150 5300 30  0001 C CNN
+F 1 "GND" H 8150 5150 50  0001 C CNN
+F 2 "" H 8150 5300 50  0000 C CNN
+F 3 "" H 8150 5300 50  0000 C CNN
+	1    8150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR026
+U 1 1 55D990D6
+P 8200 3750
+F 0 "#PWR026" H 8200 3750 40  0001 C CNN
+F 1 "GNDA" H 8200 3600 50  0000 C CNN
+F 2 "" H 8200 3750 50  0000 C CNN
+F 3 "" H 8200 3750 50  0000 C CNN
+	1    8200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 55D990DC
+P 9350 3350
+F 0 "#PWR027" H 9350 3350 30  0001 C CNN
+F 1 "GND" H 9350 3200 50  0001 C CNN
+F 2 "" H 9350 3350 50  0000 C CNN
+F 3 "" H 9350 3350 50  0000 C CNN
+	1    9350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 55D990E2
+P 7350 1800
+F 0 "#PWR028" H 7350 1800 30  0001 C CNN
+F 1 "GND" H 7350 1650 50  0001 C CNN
+F 2 "" H 7350 1800 50  0000 C CNN
+F 3 "" H 7350 1800 50  0000 C CNN
+	1    7350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:CAP-POL-GENERIC C8
+U 1 1 55D8251D
+P 7350 1550
+F 0 "C8" H 7400 1650 40  0000 L CNN
+F 1 "CAP-POL-GENERIC" H 7400 1450 40  0001 L CNN
+F 2 "ECFootprints:CAP-POL-GENERIC-TH-D4MM-P1.5MM" H 7300 1550 40  0001 C CNN
+F 3 "~" H 7400 1650 40  0001 C CNN
+F 4 "10uF" H 7450 1450 40  0000 C CNN "Component Value"
+	1    7350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 55D990F2
+P 7850 1800
+F 0 "#PWR029" H 7850 1800 30  0001 C CNN
+F 1 "GND" H 7850 1650 50  0001 C CNN
+F 2 "" H 7850 1800 50  0000 C CNN
+F 3 "" H 7850 1800 50  0000 C CNN
+	1    7850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 55D990F8
+P 8300 1800
+F 0 "#PWR030" H 8300 1800 30  0001 C CNN
+F 1 "GND" H 8300 1650 50  0001 C CNN
+F 2 "" H 8300 1800 50  0000 C CNN
+F 3 "" H 8300 1800 50  0000 C CNN
+	1    8300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:HOLE H2
+U 1 1 55D9AE06
+P 1600 6800
+F 0 "H2" H 1600 6950 40  0000 C CNN
+F 1 "HOLE" H 1600 6650 50  0000 C CNN
+F 2 "ECFootprints:HOLE_3.5MM" H 1500 6850 50  0001 C CNN
+F 3 "~" H 1600 6950 50  0001 C CNN
+	1    1600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:HOLE H3
+U 1 1 55D9AE0C
+P 1900 6800
+F 0 "H3" H 1900 6950 40  0000 C CNN
+F 1 "HOLE" H 1900 6650 50  0000 C CNN
+F 2 "ECFootprints:HOLE_3.5MM" H 1800 6850 50  0001 C CNN
+F 3 "~" H 1900 6950 50  0001 C CNN
+	1    1900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:HOLE H4
+U 1 1 55D9AE12
+P 2200 6800
+F 0 "H4" H 2200 6950 40  0000 C CNN
+F 1 "HOLE" H 2200 6650 50  0000 C CNN
+F 2 "ECFootprints:HOLE_3.5MM" H 2100 6850 50  0001 C CNN
+F 3 "~" H 2200 6950 50  0001 C CNN
+	1    2200 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:AUDIO-JACK J3
+U 1 1 55DAE62C
+P 1400 4500
+F 0 "J3" H 1000 4350 40  0000 C CNN
+F 1 "AUDIO-JACK" H 1150 4700 50  0000 C CNN
+F 2 "ECFootprints:AUDIO-JACK" H 1300 4500 50  0001 C CNN
+F 3 "~" H 1300 4500 50  0001 C CNN
+	1    1400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR031
+U 1 1 55DAE635
+P 1750 4700
+F 0 "#PWR031" H 1750 4700 40  0001 C CNN
+F 1 "GNDA" H 1750 4550 50  0000 C CNN
+F 2 "" H 1750 4700 50  0000 C CNN
+F 3 "" H 1750 4700 50  0000 C CNN
+	1    1750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:DPDT-GENERIC SW1
+U 1 1 55DAEC90
+P 3450 3700
+F 0 "SW1" H 3250 4050 40  0000 C CNN
+F 1 "DPDT-GENERIC" H 3300 3750 50  0001 C CNN
+F 2 "ECFootprints:DPDT-GENERIC" H 3450 3900 50  0001 C CNN
+F 3 "~" H 3450 3900 50  0001 C CNN
+	1    3450 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR032
+U 1 1 55DC11BB
+P 9100 1700
+F 0 "#PWR032" H 9100 1700 40  0001 C CNN
+F 1 "GNDA" H 9100 1550 50  0000 C CNN
+F 2 "" H 9100 1700 50  0000 C CNN
+F 3 "" H 9100 1700 50  0000 C CNN
+	1    9100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 55DC11C1
+P 9700 1700
+F 0 "#PWR033" H 9700 1700 30  0001 C CNN
+F 1 "GND" H 9700 1550 50  0001 C CNN
+F 2 "" H 9700 1700 50  0000 C CNN
+F 3 "" H 9700 1700 50  0000 C CNN
+	1    9700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:ECS00108 J4
+U 1 1 55DC1A56
+P 1200 1350
+F 0 "J4" H 950 1500 40  0000 C CNN
+F 1 "ECS00108" H 950 1550 50  0001 C CNN
+F 2 "ECFootprints:ECS00108" H 1300 1250 50  0001 C CNN
+F 3 "C:/Users/Andrew/Documents/Kicad/Internal Parts Library/${INTERNAL_PARTS_LIB}/Datasheets/Connectors/RS - 448-376 - 2.5MM Power Socket.pdf" H 1300 1250 50  0001 C CNN
+F 4 "~" H 1050 1300 40  0001 C CNN "Component Value"
+F 5 "448-376" H 1250 1200 50  0000 C CNN "Manufacturer Part Number"
+F 6 "RS" H 1250 1500 50  0001 C CNN "Manufacturer"
+F 7 "~" H 1350 1600 40  0001 C CNN "Series"
+F 8 "Power socket, 2.5mm" H 1150 1650 50  0001 C CNN "Part Description"
+	1    1200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR034
+U 1 1 55E1CAA5
+P 4750 5700
+F 0 "#PWR034" H 4750 5800 30  0001 C CNN
+F 1 "VCC" H 4750 5850 50  0000 C CNN
+F 2 "" H 4750 5700 50  0000 C CNN
+F 3 "" H 4750 5700 50  0000 C CNN
+	1    4750 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistors:ECS00110 Q1
+U 1 1 55F88D06
+P 2950 1350
+F 0 "Q1" V 2900 1150 40  0000 R CNN
+F 1 "ECS00110" H 2950 1170 50  0001 R CNN
+F 2 "ECFootprints:ECTO-220" H 2850 1440 50  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Transistors/International Rectifier - AUIRF9Z34N.pdf" H 2950 1350 50  0001 C CNN
+F 4 "AUIRF9Z34N" H 2700 1500 50  0000 C CNN "Manufacturer Part Number"
+F 5 "International Rectifier" H 2850 1600 50  0001 C CNN "Manufacturer"
+F 6 "MOSFET, P-Channel, 19A, 0R1" H 2950 1700 50  0001 C CNN "Part Description"
+	1    2950 1350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Misc:HOLE H1
+U 1 1 55D9ADF9
+P 1300 6800
+F 0 "H1" H 1300 6950 40  0000 C CNN
+F 1 "HOLE" H 1300 6650 50  0000 C CNN
+F 2 "ECFootprints:HOLE_3.5MM" H 1200 6850 50  0001 C CNN
+F 3 "~" H 1300 6950 50  0001 C CNN
+	1    1300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5EBC8085
+P 9400 1600
+F 0 "NT1" H 9400 1781 50  0000 C CNN
+F 1 "Net-Tie_2" H 9400 1550 50  0000 C CNN
+F 2 "NetTie:NetTie-2_THT_Pad1.0mm" H 9400 1600 50  0001 C CNN
+F 3 "~" H 9400 1600 50  0001 C CNN
+	1    9400 1600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

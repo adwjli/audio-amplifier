@@ -1,0 +1,388 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 25/08/2015 8:46:08 p.m.
+
+BeginCmp
+TimeStamp = /55D96301;
+Reference = C1;
+ValeurCmp = CAP-POL-GENERIC;
+IdModule  = CAP-POL-GENERIC-TH-D5MM-P1.8MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D82196;
+Reference = C2;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D820CB;
+Reference = C3;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D82113;
+Reference = C4;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D82219;
+Reference = C5;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8246D;
+Reference = C6;
+ValeurCmp = CAP-POL-GENERIC;
+IdModule  = CAP-POL-GENERIC-TH-D4MM-P1.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D96AB2;
+Reference = C7;
+ValeurCmp = CAP-POL-GENERIC;
+IdModule  = CAP-POL-GENERIC-TH-D5MM-P1.8MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8251D;
+Reference = C8;
+ValeurCmp = CAP-POL-GENERIC;
+IdModule  = CAP-POL-GENERIC-TH-D4MM-P1.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D825F2;
+Reference = C9;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D82822;
+Reference = C10;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8D879;
+Reference = C11;
+ValeurCmp = CAP-POL-GENERIC;
+IdModule  = CAP-POL-GENERIC-TH-D8MM-P3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D825B6;
+Reference = C12;
+ValeurCmp = CAP-POL-GENERIC;
+IdModule  = CAP-POL-GENERIC-TH-D8MM-P3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8280C;
+Reference = C13;
+ValeurCmp = CAP-POL-GENERIC;
+IdModule  = CAP-POL-GENERIC-TH-D8MM-P3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8D880;
+Reference = C14;
+ValeurCmp = CAP-POL-GENERIC;
+IdModule  = CAP-POL-GENERIC-TH-D8MM-P3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8298C;
+Reference = C15;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D829CD;
+Reference = C16;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D82DFA;
+Reference = C17;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D82E05;
+Reference = C18;
+ValeurCmp = CAP-GENERIC;
+IdModule  = CAP-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D83348;
+Reference = D1;
+ValeurCmp = LED-GENERIC-TH;
+IdModule  = LED-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D9ADF9;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = HOLE_3.0MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D9AE06;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = HOLE_3.0MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D9AE0C;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = HOLE_3.0MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D9AE12;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = HOLE_3.0MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D81B0B;
+Reference = J1;
+ValeurCmp = AUDIO-JACK;
+IdModule  = AUDIO-JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DC24CB;
+Reference = J2;
+ValeurCmp = NET-TIE;
+IdModule  = NET-TIE-0.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DAE62C;
+Reference = J3;
+ValeurCmp = AUDIO-JACK;
+IdModule  = AUDIO-JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DC1A56;
+Reference = J4;
+ValeurCmp = ECS00108;
+IdModule  = ECS00108;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D98881;
+Reference = L1;
+ValeurCmp = INDUCTOR-GENERIC;
+IdModule  = INDUCTOR-GENERIC-TH-D7.2MM-P2.54MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D988F6;
+Reference = L2;
+ValeurCmp = INDUCTOR-GENERIC;
+IdModule  = INDUCTOR-GENERIC-TH-D7.2MM-P2.54MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D825BE;
+Reference = P2;
+ValeurCmp = HEADER-GENERIC-2WAY;
+IdModule  = HEADER-2-TH-P4.8MM-D8MMX10MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D82817;
+Reference = P3;
+ValeurCmp = HEADER-GENERIC-2WAY;
+IdModule  = HEADER-2-TH-P4.8MM-D8MMX10MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DAF804;
+Reference = Q1;
+ValeurCmp = ECS00107;
+IdModule  = ECTO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D962D2;
+Reference = R1;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D962DD;
+Reference = R2;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8382B;
+Reference = R3;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D83572;
+Reference = R4;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D83836;
+Reference = R5;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8359F;
+Reference = R6;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8337C;
+Reference = R7;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D95A60;
+Reference = R8;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8425E;
+Reference = R9;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8261C;
+Reference = R10;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8282D;
+Reference = R11;
+ValeurCmp = RES-GENERIC;
+IdModule  = RES-GENERIC-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D81E18;
+Reference = R12;
+ValeurCmp = DUAL-POT;
+IdModule  = DUAL-POT2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DAEC90;
+Reference = SW1;
+ValeurCmp = DPDT-GENERIC;
+IdModule  = DPDT-GENERIC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D97DBC;
+Reference = TP1;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D97BCC;
+Reference = TP2;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D97DB6;
+Reference = TP3;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D97B94;
+Reference = TP4;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D97B87;
+Reference = TP5;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D97EDA;
+Reference = TP6;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D97EE0;
+Reference = TP7;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D98020;
+Reference = TP8;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D98026;
+Reference = TP9;
+ValeurCmp = TP-2MM;
+IdModule  = TP-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8187E;
+Reference = U1;
+ValeurCmp = ECS00104;
+IdModule  = DIP-20;
+EndCmp
+
+EndListe
