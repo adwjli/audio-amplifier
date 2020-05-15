@@ -1,2 +1,2 @@
-# audio-amplifier
+# Audio Amplifier
 Audio amplifier using 
