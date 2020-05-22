@@ -12,3 +12,5 @@ The amplifier accepts an input voltage between 15V to 25V. The output power is 1
 ![Audio Ampifier PCBs, assembled.](media/scene1.jpg)
 
 ![Audio Amplifier powered.](media/scene3.jpg)
+
+![Audio Amplifier powered.](media/audio-amplifier-copper-layers.jpg)
